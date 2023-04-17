@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Texto para PDF</title>
+</head>
+<body>
+<div class="container-fluid">
+    <form id="convert-form">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <h1 class="mt-4">Texto para PDF</h1>
+                    <div class="break"></div>
+                    <div class="form-group mt-4 w-100 d-flex flex-wrap justify-content-center">
+                        <label for="convert-text" class="mb-2">Insira seu texto</label>
+                        <div class="break"></div>
+                        <textarea class="form-control text-area" id="convert-text" name="convert-text" rows="5"></textarea>
+                    </div>
+                    <div class="break"></div>
+                    <button id="btn" class="btn btn-primary mt-4">Coverter em PDF</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="module" src="src/js/main.js"></script>
+</body>
+</html>
