@@ -18,7 +18,6 @@ export function splitText(text) {
     // Representa uma linha do PDF.
     let currentLine = ""
     // Iteramos sob a lista "words".
-    console.log(words.length)
     for (let i = 0; i < words.length; i++) {
         // Caso "currentLine" (linha atual) seja menor que o tamanho máximo,
         // adicionamos uma palavra a string.
