@@ -3,12 +3,12 @@ import jsPDF from "jspdf";
 /**
  * Gera um nome de arquivo a partir do texto utilizado.
  * @param text - Texto utilizado para gerar o nome do arquivo.
- * @returns string - Nome do arquivo.
+ * @returns string
  */
 function generateFilename(text){
     // Checa se o texto recebido é "null" ou "undefined", ou se está vazio.
     if (text == undefined || text.length === 0){
-        // Generates a random string
+        // Gera uma string única aleatória.
         return Math.random().toString(36)
     }
 
