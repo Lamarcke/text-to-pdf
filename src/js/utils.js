@@ -30,7 +30,7 @@ export function splitText(text) {
             }
         }
 
-            // Caso contrário, adicionamos a linha atual ao resultado final e
+        // Caso contrário, adicionamos a linha atual ao resultado final e
         // criamos uma nova linha.
         else {
             result.push(currentLine)
