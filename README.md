@@ -17,3 +17,4 @@ Evitei o uso de tecnologias que poderiam aumentar o bundle size desnecessariamen
 ## Visualização
 
 O projeto pode ser visualizado ao vivo através desse link:
+https://text-to-pdf.pages.dev/
